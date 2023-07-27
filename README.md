@@ -1,0 +1,2 @@
+# PERMADEATH
+Fan-Made PERMADEATH Plugin
