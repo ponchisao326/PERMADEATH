@@ -1,0 +1,10 @@
+# En este archivo de configuración se podrá elegir los cambio en el comportamiento del juego dependiendo del dia.
+
+# Los cambios actualmente implementados van del dia 0 al dia 30, yendo así con los dias: 10, 20, 25 y 30.
+
+# Por favor, solamente incluid los dias mostrados anteriormente, si no son esos numeros en concreto no funcionará!
+
+# No tocar el valor por defecto del deathtrain, se usa como boolean para detectar si hay deathtrain o no, en caso de cambiarlo los comandos funcionarán diferentes, este valor se actualiza solo cuando un jugador muere, empezando así la deathtrain, o en su defecto cuando pasa la hora y se restablece.
+Config:
+  dia: 0
+  deathtrain: false
