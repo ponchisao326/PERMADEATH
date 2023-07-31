@@ -1,0 +1,29 @@
+name: Permadeath
+version: '${project.version}'
+main: ponchisaosserver.duckdns.org.permadeath.Permadeath
+api-version: 1.20
+authors:
+  - Ponchisao326
+website: https://ponchisaosserver.duckdns.org/ponchisao/index.html
+description: Plugin made for Permadeath
+prefix: Permadeath
+depend:
+  - LuckPerms
+permissions:
+  permadeath.deathtrain:
+    description: Used by the deathtrain listener
+  permadeath.daychange:
+    description: Used to change the day difficulty
+  permadeath.reset:
+    description: Used to reset lives of an user
+  permadeath.reload:
+    description: Used to reload the config
+  permadeath.modify:
+    description: Used to modify the Ender Dragon
+  permadeath.dragon:
+    description: Used to modify the Ender Dragon
+commands:
+  permadeath:
+    usage: "Usage: /permadeath <argumentos>"
+    description: base for the plugin commands
+    aliases: [perma]
